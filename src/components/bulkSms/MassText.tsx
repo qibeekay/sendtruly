@@ -28,7 +28,7 @@ const MassText = () => {
           </div>
           <div>
             <p className="font-bold text-[55px]">1M+</p>
-            <p className="font-bold text-[32px] leading-4">SMS USERS</p>
+            <p className="font-bold text-[32px] leading-4">SMS USER</p>
           </div>
         </div>
       </div>
