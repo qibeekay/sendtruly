@@ -1,11 +1,20 @@
 import React from "react";
-import { MassText, SmsHeader } from "../../components";
+import {
+  Connect,
+  CreateSet,
+  MassText,
+  Maximize,
+  SmsHeader,
+} from "../../components";
 
 const BulkPage = () => {
   return (
     <div>
       <SmsHeader />
       <MassText />
+      <Connect />
+      <CreateSet />
+      <Maximize />
     </div>
   );
 };

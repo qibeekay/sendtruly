@@ -26,6 +26,9 @@ import Bulk from "../pages/Bulk";
 import BulkPage from "./bulkSms/BulkPage";
 import SmsHeader from "./bulkSms/SmsHeader";
 import MassText from "./bulkSms/MassText";
+import Connect from "./bulkSms/Connect";
+import CreateSet from "./bulkSms/CreateSet";
+import Maximize from "./bulkSms/Maximize";
 
 export {
     Navbar,
@@ -55,5 +58,8 @@ export {
     SmsHeader,
     Bulk,
     BulkPage,
-    MassText
+    MassText,
+    Connect,
+    CreateSet,
+    Maximize
 }
