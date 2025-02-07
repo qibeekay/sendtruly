@@ -36,6 +36,16 @@ import Utilize from "./twoway/Utilize";
 import Employ from "./twoway/Employ";
 import Promote from "./twoway/Promote";
 import TwoWayMessage from "./twoway/TwoWayMessage";
+import Reviews from "../pages/Reviews";
+import ReviewsPage from "./reviews/ReviewsPage";
+import ReviewsHeader from "./reviews/ReviewsHeader";
+import ReviewsUtilze from "./reviews/ReviewsUtilze";
+import ReviewsRequest from "./reviews/ReviewsRequest";
+import ReviewsSeekReviews from "./reviews/ReviewsSeekReviews";
+import ReviewsFirstStep from "./reviews/ReviewsFirstStep";
+import Payment from "../pages/Payment";
+import PaymentPage from "./payment/PaymentPage";
+import PaymentHeader from "./payment/PaymentHeader";
 
 export {
     Navbar,
@@ -75,5 +85,15 @@ export {
     Utilize,
     Employ,
     TwoWayMessage,
-    Promote
+    Promote,
+    Reviews,
+    ReviewsPage,
+    ReviewsHeader,
+    ReviewsUtilze,
+    ReviewsRequest,
+    ReviewsSeekReviews,
+    ReviewsFirstStep,
+    Payment,
+    PaymentHeader,
+    PaymentPage,
 }
