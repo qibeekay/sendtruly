@@ -2,7 +2,7 @@ import React from "react";
 
 const MassText = () => {
   return (
-    <div className="bg-lightblue text-white py-20">
+    <section className="bg-lightblue text-white py-20">
       <div className="max-w-[1440px] mx-auto px-4 text-center">
         <h1 className="text-3xl md:text-[45px] font-bold">
           What is Mass Text Messaging?
@@ -38,7 +38,7 @@ const MassText = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

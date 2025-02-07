@@ -29,6 +29,13 @@ import MassText from "./bulkSms/MassText";
 import Connect from "./bulkSms/Connect";
 import CreateSet from "./bulkSms/CreateSet";
 import Maximize from "./bulkSms/Maximize";
+import TwoWays from "../pages/TwoWays";
+import TwoWayHeader from "./twoway/TwoWayHeader";
+import TwoWayPage from "./twoway/TwoWayPage";
+import Utilize from "./twoway/Utilize";
+import Employ from "./twoway/Employ";
+import Promote from "./twoway/Promote";
+import TwoWayMessage from "./twoway/TwoWayMessage";
 
 export {
     Navbar,
@@ -61,5 +68,12 @@ export {
     MassText,
     Connect,
     CreateSet,
-    Maximize
+    Maximize,
+    TwoWayHeader,
+    TwoWayPage,
+    TwoWays,
+    Utilize,
+    Employ,
+    TwoWayMessage,
+    Promote
 }

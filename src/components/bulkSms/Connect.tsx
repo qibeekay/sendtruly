@@ -2,7 +2,7 @@ import React from "react";
 
 const Connect = () => {
   return (
-    <div className="py-28 bg-[#E9F3FF]">
+    <section className="py-28 bg-[#E9F3FF]">
       <div className="max-w-[1440px] mx-auto px-4 text-center flex flex-col items-center justify-center">
         <h1 className="text-xl md:text-3xl md:text-[40px] font-bold max-w-[60rem] mx-auto">
           Connect with your entire customer base simultaneously through bulk SMS
@@ -44,7 +44,7 @@ const Connect = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

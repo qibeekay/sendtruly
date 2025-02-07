@@ -2,7 +2,7 @@ import React from "react";
 
 const CreateSet = () => {
   return (
-    <div className="py-28 bg-white">
+    <section className="py-28 bg-white">
       <div className="max-w-[1440px] mx-auto px-4 text-center flex flex-col items-center justify-center">
         <h1 className="text-xl md:text-3xl md:text-[40px] font-bold max-w-[60rem] mx-auto">
           Create Set-It-and-Forget-It SMS Automated Messages
@@ -78,7 +78,7 @@ const CreateSet = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
