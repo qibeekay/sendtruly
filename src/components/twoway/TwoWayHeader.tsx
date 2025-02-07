@@ -3,7 +3,7 @@ import { getImageSrc } from "../../utils/imageUtils";
 
 const TwoWayHeader = () => {
   return (
-    <header className="w-full bg-[#E9F3FF] min-h-screen py-[8rem] text-black font-inter">
+    <header className="w-full bg-[#E9F3FF] py-[8rem] text-black font-inter">
       <div className="max-w-[1440px] mx-auto px-4 flex items-center flex-col-reverse lg:flex-row justify-center gap-10 h-full">
         {/* header text */}
         <div className="w-full">

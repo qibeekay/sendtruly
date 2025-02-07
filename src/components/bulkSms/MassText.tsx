@@ -25,7 +25,7 @@ const MassText = () => {
             </p>
           </div>
           <div>
-            <p className="font-bold text-[36px] md:text-[55px] ">90%</p>
+            <p className="font-bold text-[36px] md:text-[55px] ">98%</p>
             <p className="font-bold text-[20px] md:text-[25px] leading-4">
               FASTER RESPONSE
             </p>

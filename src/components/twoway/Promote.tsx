@@ -3,7 +3,7 @@ import { getImageSrc } from "../../utils/imageUtils";
 
 const Promote = () => {
   return (
-    <section className="w-full bg-white min-h-screen py-10 lg:py-[8rem] text-black font-inter">
+    <section className="w-full bg-white py-10 lg:py-[8rem] text-black font-inter">
       <div className="max-w-[1440px] mx-auto px-4 flex items-center flex-col-reverse lg:flex-row justify-center gap-10 h-full">
         {/* header text */}
         <div className="w-full">
