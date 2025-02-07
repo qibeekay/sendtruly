@@ -46,6 +46,12 @@ import ReviewsFirstStep from "./reviews/ReviewsFirstStep";
 import Payment from "../pages/Payment";
 import PaymentPage from "./payment/PaymentPage";
 import PaymentHeader from "./payment/PaymentHeader";
+import PaymentAccelerate from "./payment/PaymentAccelerate";
+import PaymentBenefits from "./payment/PaymentBenefits";
+import PaymentGetStarted from "./payment/PaymentGetStarted";
+import PaymentWhatMakes from "./payment/PaymentWhatMakes";
+import PaymentWork from "./payment/PaymentWork";
+
 
 export {
     Navbar,
@@ -96,4 +102,10 @@ export {
     Payment,
     PaymentHeader,
     PaymentPage,
+    PaymentAccelerate,
+    PaymentGetStarted,
+    PaymentWork,
+    PaymentBenefits,
+    PaymentWhatMakes
+
 }

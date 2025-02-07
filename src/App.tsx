@@ -6,6 +6,7 @@ import {
   Bulk,
   Footer,
   Navbar,
+  Payment,
   Pricing,
   Reviews,
   TwoWays,
@@ -22,6 +23,7 @@ function App() {
         <Route path="/bulk-sms" element={<Bulk />} />
         <Route path="/2way-sms" element={<TwoWays />} />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="/payments" element={<Payment />} />
       </Routes>
       <Footer />
     </BrowserRouter>
