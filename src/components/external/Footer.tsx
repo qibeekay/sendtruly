@@ -1,10 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import linkedin from "../../assets/insta.png";
-import insta from "../../assets/link.png";
-import face from "../../assets/face.png";
-import tube from "../../assets/tube.png";
-import tweet from "../../assets/tweet.png";
+import { getImageSrc } from "../../utils/imageUtils";
 
 const Footer = () => {
   return (
@@ -25,31 +20,31 @@ const Footer = () => {
             {/* linkedin */}
             <div>
               <Link to={""}>
-                <img src={linkedin} alt="linkedin link" />
+                <img src={getImageSrc("insta.png")} alt="linkedin link" />
               </Link>
             </div>
             {/* instagram */}
             <div>
               <Link to={""}>
-                <img src={insta} alt="instagram link" />
+                <img src={getImageSrc("Link.png")} alt="instagram link" />
               </Link>
             </div>
             {/* twiter */}
             <div>
               <Link to={""}>
-                <img src={tweet} alt="twitter link" />
+                <img src={getImageSrc("tweet.png")} alt="twitter link" />
               </Link>
             </div>
             {/* facebook */}
             <div>
               <Link to={""}>
-                <img src={face} alt="facebook link" />
+                <img src={getImageSrc("face.png")} alt="facebook link" />
               </Link>
             </div>
             {/* youtube */}
             <div>
               <Link to={""}>
-                <img src={tube} alt="youtube link" />
+                <img src={getImageSrc("tube.png")} alt="youtube link" />
               </Link>
             </div>
           </div>
