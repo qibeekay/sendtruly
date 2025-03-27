@@ -3,7 +3,7 @@ import React from "react";
 const Support = () => {
   return (
     <section className=" text-white font-monts pb-14 px-4">
-      <div className="max-w-[1440px] mx-auto px-4 bg-pinks min-h-[225px] py-10 flex items-center justify-center rounded-b-[20px]">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 bg-pinks min-h-[225px] py-10 flex items-center justify-center rounded-b-[20px]">
         <div className="flex items-center justify-center flex-col ">
           <div className="w-full">
             <h1 className="text-[20px] sm:text-[25px] md:text-[36px] font-medium text-center">

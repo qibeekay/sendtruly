@@ -42,7 +42,7 @@
   }
 
   .button {
-    @apply px-[20px] py-[7px] rounded-[12px] flex items-center gap-[10px] text-[19.22px] font-inter font-normal cursor-pointer text-white;
+    @apply px-[20px] py-[7px] rounded-[12px] flex items-center gap-[10px] xl:text-[19.22px] font-inter font-normal cursor-pointer text-white;
   }
 
   /* .card {

@@ -4,8 +4,8 @@ import { getImageSrc } from "../../utils/imageUtils";
 const Services = () => {
   return (
     <section className="bg-white">
-      <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-center py-5 font-medium text-lg sm:text-xl md:text-[36px]">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto">
+        <h1 className="text-center py-5 font-medium text-lg sm:text-xl md:text-3xl">
           Create personalized multi-channel experiences faster than you can read
           this sentence
         </h1>

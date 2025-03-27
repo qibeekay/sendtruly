@@ -4,12 +4,12 @@ import { getImageSrc } from "../../utils/imageUtils";
 const Footer = () => {
   return (
     <footer className=" bg-darkblue text-white p-4 lg:p-10 ">
-      <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-y-10">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-y-10">
         <div className="font-monts">
-          <h1 className="font-bold text-center text-[40px] xs:text-[50px] sm:text-[70px] lg:text-[110px] xl:text-[128px]">
+          <h1 className="font-bold text-center text-[40px] xs:text-[50px] sm:text-[70px] lg:text-[100px] xl:text-[128px]">
             sendtruly
           </h1>
-          <p className="font-bold text-base md:text-2xl text-center">
+          <p className="font-bold text-base lg:text-xl xl:text-2xl text-center">
             SMS | Email | Whatsapp | Loyalty | Review | Text2Pay
           </p>
         </div>

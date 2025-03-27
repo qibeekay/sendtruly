@@ -4,7 +4,7 @@ import { getImageSrc } from "../../utils/imageUtils";
 const Global = () => {
   return (
     <section className="bg-black font-inter pt-4 pb-10 mt-10">
-      <div className="max-w-[1440px] mx-auto px-4">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4">
         <p className="text-[#FFC828] text-center lg:text-left">
           GLOBAL SUPER NETWORK
         </p>
@@ -12,10 +12,10 @@ const Global = () => {
           {/* text */}
           <div className="w-full text-white flex items-center justify-center lg:flex-initial">
             <div>
-              <h1 className="font-bold text-[30px] sm:text-[40px] md:text-[58.58px] md:leading-[69px] max-w-[492px]">
+              <h1 className="font-bold text-[30px] sm:text-[40px] leading-14 xl:text-[58.58px] xl:leading-[69px] max-w-[492px]">
                 Industry-leading connectivity. True global reach.
               </h1>
-              <p className="text-[20px] py-5 max-w-[465px]">
+              <p className="text-[16px] xl:text-[20px] py-5 max-w-[465px]">
                 Connect with your audience anywhere in the world through the
                 most reliable messaging platform.
               </p>

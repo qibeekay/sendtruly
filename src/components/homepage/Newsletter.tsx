@@ -3,13 +3,13 @@ import React from "react";
 const Newsletter = () => {
   return (
     <section className="bg-pinks min-h-[225px] py-10 flex items-center justify-center text-white font-monts">
-      <div className="max-w-[1440px] mx-auto px-4">
-        <div className="flex items-center justify-center flex-col lgs:flex-row">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4">
+        <div className="flex gap-2 items-center justify-center flex-col lgs:flex-row">
           <div className="w-full">
-            <h1 className="text-[20px] sm:text-[25px] md:text-[36px] font-medium text-center lgs:text-left">
+            <h1 className="text-[20px] sm:text-[25px] xl:text-[36px] font-medium text-center lgs:text-left">
               Get started with zondos today for free
             </h1>
-            <p className="font-medium md:text-[18px] text-center lgs:text-left">
+            <p className="font-medium xl:text-[18px] text-center lgs:text-left">
               Expand your audience, enhance customer lifetime value, and boost
               overall sales
             </p>

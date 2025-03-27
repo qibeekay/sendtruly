@@ -46,33 +46,33 @@ const features: FeatureDetail[] = [
 const Trusted = () => {
   return (
     <section className=" py-8 px-4">
-      <div className="max-w-[1440px] mx-auto">
-        <h1 className="text-2xl font-bold text-center mb-8">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto">
+        <h1 className="text-xl xl:text-2xl font-bold text-center mb-8">
           TRUSTED GLOBALLY BY OVER 100 BRANDS
         </h1>
 
         {/* Brands grid */}
-        <div className="flex items-center justify-center xl:justify-between flex-wrap gap-8">
+        <div className="flex items-center justify-center flex-wrap gap-4">
           {brandImages.map((filename, index) => (
             <div key={index} className="flex items-center justify-center p-4">
               <img
                 src={getImageSrc(filename)}
                 alt={`Brand ${index + 1}`}
-                className="h-auto mx-auto"
+                className="h-auto w-[7rem] mx-auto"
                 loading="lazy"
               />
             </div>
           ))}
         </div>
 
-        <div className="p-8 bg-lightpurple w-full">
-          <h1 className="font-poppins text-lg sm:text-2xl">
+        <div className="p-8 mt-5 bg-lightpurple w-full">
+          <h1 className="font-poppins text-lg sm:text-xl xl:text-2xl ">
             Everything you need to drive traffic
           </h1>
           {/* Features grid */}
           <div className="flex items-center justify-center lg:justify-between gap-8 flex-wrap mt-4">
             {features.map((feature, index) => (
-              <div key={index} className=" max-w-[272px]">
+              <div key={index} className="w-[235px] xl:max-w-[272px]">
                 <div className="h-[232px] rounded-[10px] overflow-hidden">
                   <img
                     src={getImageSrc(feature.imageKey)}
@@ -81,10 +81,12 @@ const Trusted = () => {
                     loading="lazy"
                   />
                 </div>
-                <h2 className="text-2xl font-poppins font-medium my-1">
+                <h2 className="text-xl xl:text-2xl font-poppins font-medium my-1">
                   {feature.title}
                 </h2>
-                <p className="font-inter text-[15px]">{feature.description}</p>
+                <p className="font-inter text-[12px] xl:text-[15px]">
+                  {feature.description}
+                </p>
               </div>
             ))}
           </div>

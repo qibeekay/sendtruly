@@ -4,8 +4,8 @@ import { getImageSrc } from "../../utils/imageUtils";
 const PaymentGetStarted = () => {
   return (
     <section className="bg-[rgb(233,243,255)] text-black py-20">
-      <div className="max-w-[1440px] mx-auto px-4 py-[4rem] text-center">
-        <h1 className="text-3xl md:text-[45px] pb-[5rem] font-bold">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 py-[4rem] text-center">
+        <h1 className="text-3xl xl:text-[45px] pb-[5rem] font-bold">
           Accelerate Your Payment Process with Sendtruly's Text-to-Pay Service
           for Faster Compensation
         </h1>

@@ -3,7 +3,7 @@ import { getImageSrc } from "../../utils/imageUtils";
 const ReviewsHeader = () => {
   return (
     <header className="w-full bg-white py-[8rem] text-black font-inter">
-      <div className="max-w-[1440px] mx-auto px-4 flex items-center flex-col-reverse lg:flex-row justify-center gap-10 h-full">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 flex items-center flex-col-reverse lg:flex-row justify-center gap-10 h-full">
         {/* header text */}
         <div className="w-full">
           <h1 className="text-3xl md:text-[45px] font-bold">

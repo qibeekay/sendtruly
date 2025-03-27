@@ -26,20 +26,20 @@ const list = [
 const ProductSynergy = () => {
   return (
     <section className="font-monts mb-10">
-      <div className="max-w-[1440px] mx-auto px-4">
+      <div className="xl:max-w-[1440px] mx-auto px-4">
         <div>
           <div className="flex flex-col lg:flex-row gap-5 lgs:gap-20 min-h-screen">
             {/* flex 1 */}
             <div className="bg-[#E1EDFF] relative w-full rounded-[20px] px-4 md:px-10">
               <div className="py-10 lgs:pt-32">
-                <h1 className="text-[20px] sm:text-[28px] md:text-[36px] font-bold mb-4">
+                <h1 className="text-[20px] sm:text-[28px] md:text-[30px] xl:text-[36px] font-bold mb-4">
                   PRODUCT SYNERGIES
                 </h1>
                 <div className="flex items-center gap-x-4 gap-y-1 flex-wrap max-w-[300px]">
                   {list.map((item, index) => (
                     <div
                       key={index}
-                      className="flex items-center gap-1 border-2 border-black rounded-[20px] py-0.5 px-6"
+                      className="flex items-center gap-1 border-2 border-black rounded-[20px] text-sm xl:text-base py-0.5 px-6"
                     >
                       {/* icon */}
                       <div>
@@ -51,11 +51,11 @@ const ProductSynergy = () => {
                   ))}
                 </div>
 
-                <h1 className="max-w-[413px] font-bold sm:text-[25px] md:text-[32px] md:leading-[39px] py-5">
+                <h1 className="max-w-[413px] font-bold sm:text-[25px] xl:text-[32px] xl:leading-[39px] py-5">
                   Create captivating seamless experiences
                 </h1>
 
-                <p className="max-w-[485px] sm:text-[20px] md:text-[24px] font-normal">
+                <p className="max-w-[485px] sm:text-[20px] xl:text-[24px] font-normal">
                   Whether you’re just starting, scaling up, or on top of your
                   game, sendtruly has pricing plans to suit any business size.
                 </p>
@@ -68,7 +68,7 @@ const ProductSynergy = () => {
 
             {/* flex-2 */}
             <div className="lg:w-[70%] pl-4 py-10 flex justify-end">
-              <div className="border-l border-black h-full grid pl-4 w-full lgs:w-[23rem] relative text-[20px] gap-y-7 lg:gap-y-0">
+              <div className="border-l border-black h-full grid pl-4 w-full lgs:w-[23rem] relative xl:text-[20px] gap-y-7 lg:gap-y-0">
                 <p>Drive Urgency</p>
                 <p>
                   Tailor communications to meet your customers where they are

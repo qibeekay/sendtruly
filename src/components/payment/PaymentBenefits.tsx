@@ -4,14 +4,14 @@ import { getImageSrc } from "../../utils/imageUtils";
 const PaymentBenefits = () => {
   return (
     <section className="w-full bg-[#E9F3FF] py-[8rem] text-black font-inter">
-      <div className="max-w-[1440px] mx-auto px-4 h-full">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 h-full">
         <h1 className="text-xl md:text-3xl md:text-[40px] text-center font-bold max-w-[55rem] mx-auto">
           Benefits of text to pay for businesses
         </h1>
         <div className="flex items-center flex-col-reverse lg:flex-row-reverse justify-between gap-10 mt-20">
           {/* header text */}
           <div className="w-full flex items-center justify-end">
-            <p className="text-lg lg:text-2xl text-center max-w-[510px]">
+            <p className="text-lg xl:text-2xl text-center xl:max-w-[510px]">
               Many enterprises offer an online payment gateway enabling
               customers to conveniently settle their bills by logging in or
               inputting their invoice number. If your business provides this

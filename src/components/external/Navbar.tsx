@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="relative">
       <nav className="fixed bg-white w-full left-0 z-[20]  border-b border-b-black/10 ">
-        <div className="flex max-w-[1440px] bg-white mx-auto px-4 items-center justify-between min-h-[60px]">
+        <div className="flex max-w-[1100px] xl:max-w-[1440px] bg-white mx-auto px-4 items-center justify-between min-h-[60px]">
           {/* logo / links */}
           <div className="flex items-center gap-8">
             {/* logo */}
@@ -100,7 +100,7 @@ const Navbar = () => {
             <div>
               <Link
                 className="link border border-darkblue bg-white rounded-[6px] py-[0.7rem] px-[2.5rem]"
-                to={""}
+                to={"https://app.sendtruly.com/login"}
               >
                 Log in
               </Link>
@@ -110,7 +110,7 @@ const Navbar = () => {
             <div className="">
               <Link
                 className="link text-white border border-pinks bg-pinks rounded-[6px] py-[0.7rem] px-[2.5rem]"
-                to={""}
+                to={"https://app.sendtruly.com/register"}
               >
                 Register
               </Link>
@@ -137,7 +137,7 @@ const Navbar = () => {
           <li className="">
             <button
               onClick={toggleFeatures}
-              className="flex items-center gap-2 link"
+              className="flex items-center gap-2 link cursor-pointer"
             >
               Features{" "}
             </button>
@@ -149,8 +149,45 @@ const Navbar = () => {
                   features ? "min-h-full py-2" : "h-0"
                 }`}
               >
-                <ul className="flex flex-col items-start gap-4">
-                  <button className="link">Logout</button>
+                <ul>
+                  <div className="flex flex-col items-start gap-2 border-l-4 border-darkblue ml-6">
+                    <Link
+                      to={"/bulk-sms"}
+                      onClick={() => {
+                        setnav(false);
+                      }}
+                      className="pl-4 text-darkblue"
+                    >
+                      Bulk SMS
+                    </Link>
+                    <Link
+                      to={"/2way-sms"}
+                      onClick={() => {
+                        setnav(false);
+                      }}
+                      className="pl-4 text-darkblue"
+                    >
+                      2way SMS
+                    </Link>
+                    <Link
+                      to={"/reviews"}
+                      onClick={() => {
+                        setnav(false);
+                      }}
+                      className="pl-4 text-darkblue"
+                    >
+                      Reviews
+                    </Link>
+                    <Link
+                      to={"/payments"}
+                      onClick={() => {
+                        setnav(false);
+                      }}
+                      className="pl-4 text-darkblue"
+                    >
+                      Payments
+                    </Link>
+                  </div>
                 </ul>
               </div>
             )}
@@ -184,7 +221,7 @@ const Navbar = () => {
           <li className="mt-4">
             <Link
               className="link border border-darkblue bg-white rounded-[6px] py-[0.7rem] px-[2.5rem]"
-              to={""}
+              to={"https://app.sendtruly.com/login"}
             >
               Log in
             </Link>
@@ -194,7 +231,7 @@ const Navbar = () => {
           <li className="mt-8">
             <Link
               className="link text-white border border-pinks bg-pinks rounded-[6px] py-[0.7rem] px-[2.5rem]"
-              to={""}
+              to={"https://app.sendtruly.com/register"}
             >
               Register
             </Link>

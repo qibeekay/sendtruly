@@ -1,5 +1,6 @@
 import React from "react";
 import { getImageSrc } from "../../utils/imageUtils";
+import { Link, useNavigate } from "react-router-dom";
 
 interface Props {
   planId: string;
@@ -42,9 +43,14 @@ const PriceTag = ({ planId, planName, desc, benefits, price }: Props) => {
         </ul>
       </div>
 
-      <button className="bg-pinks text-white w-full text-[19.22px] rounded-[15px] py-[14.5px] mt-10">
-        Get Started
-      </button>
+      <div className="mt-10">
+        <Link
+          to={"https://app.sendtruly.com/"}
+          className="bg-pinks text-white w-full text-[19.22px] rounded-[15px] py-[14.5px] px-[20px]"
+        >
+          Get Started
+        </Link>
+      </div>
     </div>
   );
 };

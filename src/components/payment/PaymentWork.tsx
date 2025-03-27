@@ -3,8 +3,8 @@ import { getImageSrc } from "../../utils/imageUtils";
 const PaymentWork = () => {
   return (
     <section className="py-28 bg-white">
-      <div className="max-w-[1440px] mx-auto px-4 text-center flex flex-col items-center justify-center">
-        <h1 className=" text-left text-lg font-bold md:text-4xl">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 text-center flex flex-col items-center justify-center">
+        <h1 className=" text-left text-lg font-bold md:text-2xl xl:text-4xl">
           How does it work
         </h1>
         {/* flex1 */}

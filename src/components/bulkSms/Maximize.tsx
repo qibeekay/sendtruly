@@ -4,7 +4,7 @@ import { getImageSrc } from "../../utils/imageUtils";
 const Maximize = () => {
   return (
     <section className="bg-lightblue text-white py-20">
-      <div className="max-w-[1440px] mx-auto px-4 text-center">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 text-center">
         <h1 className="text-3xl md:text-[45px] font-bold">
           Maximize Customer Engagement with Two‑Way SMS
         </h1>

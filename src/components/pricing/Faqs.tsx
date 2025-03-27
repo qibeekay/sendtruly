@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Faqs = () => {
   return (
     <section className="font-monts ">
-      <div className="max-w-[1440px] px-4 mx-auto">
+      <div className="max-w-[1100px] xl:max-w-[1440px] px-4 mx-auto">
         <h1 className="font-bold text-[20px] md:text-[36px] mb-4">
           Frequently Asked Questions
         </h1>
@@ -17,7 +17,7 @@ const Faqs = () => {
               </h1>
               <p className="text-sm sm:text-base">
                 Getting started is easy! You can install{" "}
-                <Link to={"sendtruly.com"} className="underline">
+                <Link to={"app.sendtruly.com"} className="underline">
                   sendtruly.com
                 </Link>{" "}
                 from the add-on store for free or click any of the Get Started

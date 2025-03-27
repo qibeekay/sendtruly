@@ -11,10 +11,10 @@ const ProductsTab = () => {
   };
   return (
     <section className="w-full bg-[#EEEEEE] min-h-screen py-[8rem] text-black font-inter">
-      <div className="max-w-[1440px] mx-auto px-4 flex items-center flex-col lg:flex-row justify-center gap-20 h-full">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 flex items-center flex-col lg:flex-row justify-center gap-20 h-full">
         {/* header text */}
         <div className="w-full">
-          <h1 className="text-3xl md:text-[45px] font-bold">
+          <h1 className="text-3xl xl:text-[45px] font-bold">
             Products designed to help maximize your revenue
           </h1>
 

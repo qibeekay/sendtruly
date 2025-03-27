@@ -60,7 +60,7 @@ const PricingPlan = () => {
   console.log(benefits[0]);
   return (
     <section className="py-[6rem]">
-      <div className="max-w-[1440px] mx-auto px-4 text-center">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 text-center">
         <h1 className="text-[20px] sm:text-[36px] font-medium">
           Thoughtfully Organised Services Tailored to Your Business
         </h1>

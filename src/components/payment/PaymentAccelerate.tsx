@@ -3,7 +3,7 @@ import { getImageSrc } from "../../utils/imageUtils";
 const PaymentAccelerate = () => {
   return (
     <section className="w-full bg-lightblue py-[8rem] text-white font-inter">
-      <div className="max-w-[1440px] mx-auto px-4  h-full">
+      <div className="max-w-[1100px] xl:max-w-[1440px] mx-auto px-4  h-full">
         <h1 className="text-xl md:text-3xl md:text-[40px] text-center font-bold max-w-[55rem] mx-auto">
           Accelerate Your Payments with Sendtruly's Text-to-Pay Service for
           Faster Compensation
