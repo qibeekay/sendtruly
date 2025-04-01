@@ -7,7 +7,7 @@ const Newsletter = () => {
         <div className="flex gap-2 items-center justify-center flex-col lgs:flex-row">
           <div className="w-full">
             <h1 className="text-[20px] sm:text-[25px] xl:text-[36px] font-medium text-center lgs:text-left">
-              Get started with zondos today for free
+              Get started with sendtruly today for free
             </h1>
             <p className="font-medium xl:text-[18px] text-center lgs:text-left">
               Expand your audience, enhance customer lifetime value, and boost
@@ -16,7 +16,7 @@ const Newsletter = () => {
           </div>
 
           <div className="w-full md:w-[30rem] mt-6 lgs:mt-0">
-            <small className="text-[10px]">Free 50 SMS upon sign-up</small>
+            <small className="text-[10px]">Free 100 SMS upon sign-up</small>
             <div className="flex items-center bg-white rounded-[5px] min-h-[46px] px-1">
               <input
                 type="text"
