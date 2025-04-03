@@ -91,7 +91,7 @@ const PricingPlan = () => {
             planName="Enterprise"
             desc="Recommended up to 1,000 contacts"
             benefits={benefits[2]}
-            price="N29,999"
+            price="N35,000"
           />
 
           {/* support tier */}
