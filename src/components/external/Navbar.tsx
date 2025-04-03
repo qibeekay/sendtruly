@@ -94,7 +94,7 @@ const Navbar = () => {
 
           {/* auths links */}
           <div className="hidden lg:flex items-center gap-4">
-            <p className="link">+234 812 210 2999</p>
+            <p className="link">info@sendtruly.com</p>
 
             {/* login */}
             <div>
@@ -215,7 +215,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="link">+234 812 210 2999</li>
+          <li className="link">info@sendtruly.com</li>
 
           {/* login */}
           <li className="mt-4">

@@ -70,9 +70,6 @@ const Footer = () => {
               <Link className=" text-[14px]" to={"mailto: info@sendtruly.com"}>
                 info@sendtruly.com
               </Link>
-              <Link className=" text-[14px]" to={""}>
-                +234 812 210 2999
-              </Link>
             </div>
           </div>
         </div>

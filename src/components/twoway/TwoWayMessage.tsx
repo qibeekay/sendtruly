@@ -22,12 +22,12 @@ const TwoWayMessage = () => {
             support@sendtruly.com
           </Link>
           <p className="font-bold text-sm sm:text-base">|</p>
-          <Link
+          {/* <Link
             to={"tel:++2348122102999"}
             className="text-sm sm:text-xl cursor-pointer font-bold hover:text-pinks"
           >
             +2348122102999
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

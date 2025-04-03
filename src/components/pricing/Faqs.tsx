@@ -57,10 +57,8 @@ const Faqs = () => {
               </h1>
               <p className="text-sm sm:text-base">
                 Simply send us an email at 
-                <span className="font-bold">
-                  info@sendtruly.com or call & WhatsApp us up on +2348122102999
-                </span>{" "}
-                We’re checking it 24/7 and we’ll be happy to answer any of your
+                <span className="font-bold">info@sendtruly.com</span> We’re
+                checking it 24/7 and we’ll be happy to answer any of your
                 questions.
               </p>
             </div>

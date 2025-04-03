@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { getImageSrc } from "../../utils/imageUtils";
+import video from ".././../assets/video.mp4";
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,18 +20,24 @@ const VideoPlayer = () => {
 
   return (
     <div className="w-full h-full">
-      <div className="relative ">
+      <div className="relative">
         <video
           ref={videoRef}
           className="w-full h-full object-cover rounded-lg"
           onClick={togglePlay}
           onEnded={() => setIsPlaying(false)}
-          src="https://www.w3schools.com/html/mov_bbb.mp4"
-          poster={getImageSrc("poster.png")}
+          src={video}
+          poster={getImageSrc("hero1.png")}
         >
           <source src="/sample-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
+        {/* <img
+          className="w-full h-full object-center object-cover"
+          src={getImageSrc("hero1.png")}
+          alt=""
+        /> */}
 
         {/* Play/Pause Button */}
         <button
